@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 384M
+  instances: 2
+  domain: mybluemix.net
+  name: mydemola
+  host: mydemola
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-m9
+  - Cloudant NoSQL DB-uz
